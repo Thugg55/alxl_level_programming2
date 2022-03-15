@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- *print_alphabet - print all alphabet in lowercase
- * Return: Always 0 (Success)
+ * print_alphabet - print all alphabet in lowercase
  */
 void print_alphabet(void)
 {
 	int i;
 
-	for (i = 97; i < 122; i++)
+	for (i = 97; i <= 122; i++)
 	{
 	_putchar(i);
 	}
