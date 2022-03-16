@@ -1,5 +1,5 @@
 #include <stdio.h>
-#incude "main.h"
+#include "main.h"
 /**
  * print_to_98 - check
  * @n: an integer
