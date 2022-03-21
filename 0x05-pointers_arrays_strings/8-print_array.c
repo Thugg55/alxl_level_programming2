@@ -2,7 +2,7 @@
 /**
  * print_array - print the array
  * @a: parameter
- * @b: parameter
+ * @n: parameter
  * Return: null
  */
 void print_array(int *a, int n)
