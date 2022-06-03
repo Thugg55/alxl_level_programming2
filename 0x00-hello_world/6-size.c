@@ -2,7 +2,7 @@
 
 /**
  * main- Entry Point
- *
+ * prints the size of various types on the computer
  * Return: Always 0 (Success)
  */
 
@@ -14,7 +14,7 @@ long int li;
 long long int lli;
 float f;
 
-printf("Size of char: %lu byte(s)\n", (unsigned long)sizeof(c));
+printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(i));
 printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(li));
 printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(lli));
