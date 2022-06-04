@@ -16,7 +16,7 @@ int main(void)
 	}
 	while (hex < 5)
 	{
-		putchar(98 + hex);
+		putchar(97 + hex);
 		hex++;
 	}
 	putchar('\n');
