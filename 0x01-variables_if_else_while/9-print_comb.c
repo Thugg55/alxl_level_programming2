@@ -2,6 +2,7 @@
 
 /**
  * main - Entry point
+ * description: print single combinations of numbers
  * Return 0
  */
 

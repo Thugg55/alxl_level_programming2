@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+/**
+ * main - prints number between 00 to 99
+ *
+ * Return 0 (sucess)
+ */
+
+int main(void)
+{
+	int a, b;
+
+	a = 48;
+	b = 48;
+	
+	while (b < 58)
+	{
+		a = 48;
+		while(a < 58)
+		{
+			putchar(b);
+			putchar(a);
+			if (a == 57 && b == 57)
+			{
+				break;
+			}
+			putchar(',');
+			putchar(' ');
+			a++;
+		}
+		b++;
+	}
+	putchar('\n');
+	return (0);
+}
