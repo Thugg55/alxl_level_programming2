@@ -4,9 +4,9 @@
  * Description: Write a program that prints base ten digits
  * Return: Always 0 (Success)
  */
-main(void)
+int main (void)
 {
-	int n = 0;
+	char n = 0;
 
 	while (n < 10)
 	{
