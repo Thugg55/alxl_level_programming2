@@ -4,15 +4,14 @@
  * Description: Write a program that prints base ten digits
  * Return: Always 0 (Success)
  */
-int main(void)
+main(void)
 {
-	char num = '0';
+	int n = 0;
 
-	while (num <= '9')
+	while (n < 10)
 	{
-		putchar(num);
-		num++;
+		printf("%d\n", n);
+		n = n + 1;
 	}
-	putchar('\n');
 	return (0);
 }
