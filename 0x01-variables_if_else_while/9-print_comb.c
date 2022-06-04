@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * description: print single combinations of numbers
- * Return 0
+ * Return: 0 (success)
  */
 
 int main(void)
