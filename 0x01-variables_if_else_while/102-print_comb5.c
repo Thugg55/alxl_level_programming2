@@ -1,39 +1,45 @@
 #include <stdio.h>
 
 /**
- * main - Print a number pair from 00 - 99
+ * main - Prints numbers between 00 to 99
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int a, b, c, d;
+	int i, e, g, h, op1, op2;
 
-	for (a = '0'; a <= 9; a++)
+	i = e = g = h = 48;
+	while (h < 58)
 	{
-		for (b = '0'; b <= '9'; b++)
+		e = 48;
+		while (e < 58)
 		{
-			for (c = a; c <= '9'; c++)
+			i = 48;
+			while (i < 58)
 			{
-				for (d = b + 1; d <= '9'; d++)
+				op1 = (h * 10) + g;
+				op2 = (e * 10) + i;
+				if (op1 < op2)
 				{
-					putchar(a);
-					putchar(b);
+					putchar(h);
+					putchar(g);
 					putchar(' ');
-					putchar(c);
-					putchar(d);
-
-					if (!((a == '9' && b == '8') && (c == '9' && d == '9')))
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(e);
+					putchar(i);
+					if (h == 57 && g == 56 && e == 57 && i == 57)
+						break;
+					putchar(',');
+					putchar(' ');
 				}
-				d = '0';
+				i++;
 			}
+			e++;
 		}
+		g++;
 	}
+	h++;
 	putchar('\n');
 	return (0);
 }
