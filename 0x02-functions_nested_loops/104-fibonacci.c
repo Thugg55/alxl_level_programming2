@@ -44,7 +44,7 @@ int main(void)
 			n22 = (fn2 % 1000000000);
 		}
 		if (((n1 + n2) < 0) && boo == 1)
-			boo == 0;
+			boo = 0;
 	}
 	printf("\n");
 	return (0);
