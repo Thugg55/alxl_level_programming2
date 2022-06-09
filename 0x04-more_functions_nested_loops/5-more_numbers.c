@@ -3,12 +3,12 @@
 /**
  * more_numbers - function that prints 10 times the number, from 0 to 14.
  *
- * Return: nothing
+ * Return: Nothing
  */
 
 void more_numbers(void)
 {
-	int x, y ;
+	int x, y;
 
 	for (x = 0; x < 10; x++)
 	{
@@ -17,10 +17,7 @@ void more_numbers(void)
 			if (y > 9)
 				_putchar((y / 10) + '0');
 				_putchar((y % 10) + '0');
-			else
-				_putchar(y);
 		}
 		_putchar('\n');
 	}
-	return (0);
 }
