@@ -2,7 +2,6 @@
 
 /**
  * print_most_numbers - prints the numbers, from 0 to 9. don't print 2 && 4.
- * @c: character to print.
  */
 
 void print_most_numbers(void)
@@ -13,6 +12,6 @@ void print_most_numbers(void)
 	{
 		if (c != '2' && c != '4')
 			_putchar(c);
-	_putchar('\n');
 	}
+	_putchar('\n');
 }
