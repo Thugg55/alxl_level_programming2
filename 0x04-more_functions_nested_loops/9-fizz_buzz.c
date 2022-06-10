@@ -24,6 +24,9 @@ int main(void)
 
 		else
 			printf("%d", p);
+		if (p == 100)
+			break;
+		printf(" ");
 	}
 	printf("\n");
 	return (0);
