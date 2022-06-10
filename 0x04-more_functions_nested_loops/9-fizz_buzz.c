@@ -9,22 +9,22 @@
 
 int main(void)
 {
-	int num;
+	int p;
 
-	for (num = 1; num <= 100; num++)
+	for (p = 1; p <= 100; p++)
 	{
-		if (num % 3 == 0 && num % 5 == 0)
-			printf("FizzBuzz ");
-		else if (num % 3 == 0 && num % 5 != 0)
-			printf("Fizz ");
-		else if (num == 100)
+		if (((p % 3) == 0) && ((p % 5) == 0))
+			printf("FizzBuzz");
+
+		else if ((p % 3) == 0)
+			printf("Fizz");
+
+		else if ((p % 5) == 0)
 			printf("Buzz");
-		else if (num % 5 == 0 && num % 3 != 0)
-			printf("Buzz ");
+
 		else
-			printf("%d ", num);
+			printf("%d", p);
 	}
-											}
-		printf("\n");
-		return (0);
+	printf("\n");
+	return (0);
 }
