@@ -7,7 +7,7 @@
  * Return: dest
  */
 
-chat *_strcat(char *dest, char *str)
+char *_strcat(char *dest, char *str)
 {
 	int i, j;
 
