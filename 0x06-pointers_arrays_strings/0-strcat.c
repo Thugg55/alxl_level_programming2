@@ -3,11 +3,11 @@
 /**
  * _strcat - concatenates tw0 strings
  * @dest: A pointer to a char that will be updated
- * @str: A pointer to a char that will be updated
+ * @src: A pointer to a char that will be updated
  * Return: dest
  */
 
-char *_strcat(char *dest, char *str)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
