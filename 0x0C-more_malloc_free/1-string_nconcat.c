@@ -9,7 +9,7 @@
  * Return: pounter
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *sout;
 	unsigned int ls1, ls2, lsout, i;
@@ -42,4 +42,4 @@ char *string_nconcat(char *s1, char *s2, unsigned)
 	}
 	sout[i] = '\0';
 	return (sout);
-}
+	}
